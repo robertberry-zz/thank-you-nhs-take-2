@@ -1,0 +1,87 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Frutiger Roman", "Frutiger Light", Frutiger, "Frutiger Linotype", Univers, Calibri, "Helvetica Neue", Arial, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.header {
+    background-color: #3399fd;
+    color: #ffffff;
+
+}
+
+.header__content {
+    margin: 0 auto;
+    width: 728px;
+    position: relative;
+}
+
+.header__title {
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* To force every word onto a new line */
+    max-width: 250px;
+}
+
+.header__menu-button {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.header__message-button {
+    font-size: 16px;
+    padding: 17px 12px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.thank-you-note {
+    box-sizing: border-box;
+    border-size: 2px;
+    border-style: solid;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    width: 728px;
+}
+
+.thank-you-note__title {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.thank-you-note__content {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.thank-you-note__meta {
+    color: #999999;
+}
+
+.thank-you-note--colour-1 {
+    color: #3399fd;
+    border-color: #3399fd;
+}
+
+.thank-you-note--colour-2 {
+    color: #259eba;
+    border-color: #259eba;
+}
+
