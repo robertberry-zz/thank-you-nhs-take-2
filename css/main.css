@@ -71,6 +71,10 @@ body {
     }
 }
 
+.thank-you-notes {
+    margin-bottom: 20px;
+}
+
 .thank-you-note {
     border-size: 2px;
     border-style: solid;
