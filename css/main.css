@@ -94,20 +94,40 @@ body {
 }
 
 .thank-you-note__title {
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
     padding-bottom: 10px;
 }
 
+@media (min-width: 600px) {
+    .thank-you-note__title {
+        font-size: 30px;
+    }
+}
+
 .thank-you-note__content {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 18px;
     margin-bottom: 10px;
     max-width: 600px;
 }
 
+@media (min-width: 600px) {
+    .thank-you-note__content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
 .thank-you-note__meta {
     color: #999999;
+    font-size: 14px;
+}
+
+@media (min-width: 600px) {
+    .thank-you-note__meta {
+        font-size: 16px;
+    }
 }
 
 .thank-you-note--colour-1 {
