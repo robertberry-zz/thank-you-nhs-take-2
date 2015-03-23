@@ -71,6 +71,14 @@ body {
     }
 }
 
+.nav {
+    display: none;
+}
+
+.nav--expanded {
+    display: block;
+}
+
 .thank-you-notes {
     margin-bottom: 20px;
 }
