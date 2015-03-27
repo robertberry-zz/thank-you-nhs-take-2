@@ -46,6 +46,7 @@ body {
     right: 0;
     background-color: transparent;
     border: 0;
+    padding: 0;
 }
 
 @media (min-width: 600px) {
@@ -77,6 +78,38 @@ body {
 
 .nav--expanded {
     display: block;
+}
+
+.nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 45px 0 0 0;
+}
+
+@media (min-width: 600px) {
+    .nav__list {
+        padding-top: 55px;
+    }
+}
+
+.nav__item {
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+@media (min-width: 600px) {
+    .nav__item {
+        font-size: 24px;
+    }
+}
+
+.nav__link,
+.nav__link:visited,
+.nav__link:active {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .thank-you-notes {
