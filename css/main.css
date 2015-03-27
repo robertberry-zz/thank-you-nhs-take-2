@@ -49,6 +49,14 @@ body {
     padding: 0;
 }
 
+.header__menu-button--closed .header__close-menu-svg {
+    display: none;
+}
+
+.header__menu-button--opened .header__open-menu-svg {
+    display: none;
+}
+
 @media (min-width: 600px) {
     .header__menu-button {
         top: 15px;
