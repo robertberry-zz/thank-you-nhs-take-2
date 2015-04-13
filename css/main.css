@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Frutiger Roman';
+    src: url('/fonts/FrutiRom.ttf');
+}
+
+@font-face {
+    font-family: 'Frutiger Light';
+    src: url('/fonts/FrutiLig.ttf');
+}
+
 body {
     background-color: #f4f4f4;
     font-family: "Frutiger Roman", "Frutiger Light", Frutiger, "Frutiger Linotype", Univers, Calibri, "Helvetica Neue", Arial, Verdana, sans-serif;
